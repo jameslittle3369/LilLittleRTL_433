@@ -1,0 +1,8 @@
+# rtl_2_postgres.py dependencies
+#   pip install -r requirements.txt
+
+# Loads configuration from .env
+python-dotenv>=1.0.0
+
+# POSTs readings to sensors-backend-fastapi
+requests>=2.31
